@@ -19,7 +19,7 @@ namespace {
         cout << "The program captures frames from a  camera ." << endl
              << "Usage:\n" << av[0] << " device number>" << endl
              << "\tTo capture from a camera pass the device number. To find the device number, try ls /dev/video*" << endl
-             << "\texample: " << av[0] << " 0" << endl
+             << "\texample: " << av[0] << " 0" << endl;
     }
 
     int process(VideoCapture& capture) {
